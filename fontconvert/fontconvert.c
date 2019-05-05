@@ -26,7 +26,8 @@ See notes at end for glyph nomenclature & other tidbits.
 #include FT_TRUETYPE_DRIVER_H
 #include "../gfxfont.h" // Adafruit_GFX font structures
 
-#define DPI 141 // Approximate res. of Adafruit 2.8" TFT
+//#define DPI 141 // Approximate res. of Adafruit 2.8" TFT
+#define DPI 120 // Correct resolution for Waveshare 4.2" e-Paper display
 
 // Accumulate bits for output, with periodic hexadecimal byte write
 void enbit(uint8_t value) {
