@@ -5,11 +5,11 @@
 # Generated font will be written in the same directory the script is invoked
 # Source fonts are expected in a subdirectory TTF
 
-# fonts="FreeSans ClearSans Hack"
-# styles="Regular Bold Italic"
+#fonts="FreeSans ClearSans Hack"
+#styles="Regular Bold Italic"
 fonts="ClearSans"
 styles="Medium"
-sizes="9 12 18 24 36 48"
+sizes="9 10 12 18 24 26"
 
 for fo in $fonts
 do
