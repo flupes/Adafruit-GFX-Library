@@ -9,7 +9,7 @@
 #styles="Regular Bold Italic"
 fonts="ClearSans"
 styles="Medium"
-sizes="9 10 12 18 24 26"
+sizes="10 12 16 18 32"
 
 for fo in $fonts
 do
